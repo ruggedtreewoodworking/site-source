@@ -40,3 +40,14 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Above: defaults, Below: RTW
+$rtw-vibrant: #15A986;
+$rtw-light: #FFF;
+$rtw-dark: #444440;
+
+$navbar-inverse-bg: $rtw-vibrant;
+$navbar-inverse-color: $rtw-light;
+$navbar-inverse-brand-color: $rtw-light;
+$navbar-inverse-link-color: $rtw-light;
+$navbar-inverse-border: $rtw-dark;

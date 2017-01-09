@@ -1,11 +1,94 @@
----
-title: Page Title
----
+%header#myCarousel.carousel.slide
+  / Indicators
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+  / Wrapper for slides
+  .carousel-inner
+    .item.active
+      .fill{:style => "background-image:url('/assets/images/projects/ch-charcuterie-boards/all.png');"}
+      .carousel-caption
+        %h2 Laser engraved charcuterie boards for CH Distillery
+    .item
+      .fill.show-bottom{:style => "background-image:url('/assets/images/projects/ornaments/snowflakes-wide.png');"}
+      .carousel-caption
+        %h2 Aspen snowflake ornament set
+    .item
+      .fill.show-bottom{:style => "background-image:url('/assets/images/projects/frames/leo-ellie.png');"}
+      .carousel-caption
+        %h2 Customized picture frames
+  / Controls
+  %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
+    %span.icon-prev
+  %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"}
+    %span.icon-next
+/ Page Content
+.container
+  / Marketing Icons Section
+  .row
+    .col-lg-12
+      %h1.page-header
+        Welcome to Rugged Tree Woodworking
+    .col-md-4
+      .panel.panel-default
+        .panel-heading
+          %h4
+            %i.fa.fa-fw.fa-heart
+            Through the Generations
+        .panel-body
+          %p We believe passing on our belongings to the next generation should pass along family history and stories with it. Once heirlooms enter the family, generations get to enjoy and appreciate them. With that belief, we strive for durability and craft with care.
+          %a.btn.btn-default{:href => "#"} Learn More
+    .col-md-4
+      .panel.panel-default
+        .panel-heading
+          %h4
+            %i.fa.fa-fw.fa-gift
+            Sentimental: The value that matters
+        .panel-body
+          %p Personalized gifts show extra effort was put in to get <b>them</b> the perfect present. Not just something you grabbed at the store the day before. They'll cherish it for years to come. And let's face it, it's hard to sell something with a name on it at a garage sale!
+          %a.btn.btn-default{:href => "#"} Learn More
+    .col-md-4
+      .panel.panel-default
+        .panel-heading
+          %h4
+            %i.fa.fa-fw.fa-picture-o
+            Wide Variety
+        .panel-body
+          %p From picture frames and ornaments to cutting boards and dressers, we have you covered. Have a craft business and need some designs cut out? Door hangers and welcome signs to coasters and keychains, we can do those too!
+          %a.btn.btn-default{:href => "#"} Learn More
+  / /.row
+  / Portfolio Section
+  .row
+    .col-lg-12
+      %h2.page-header Recent Projects
+    .col-md-4.col-sm-6
+      = portfolio_img_link('/portfolio/ch-charcuterie-boards','/assets/images/projects/ch-charcuterie-boards/portfolio-thumb.png')
+    .col-md-4.col-sm-6
+      = portfolio_img_link('/portfolio/snowflake-ornament-set','/assets/images/projects/ornaments/portfolio-thumb.png')
+    .col-md-4.col-sm-6
+      = portfolio_img_link('/portfolio/customized-frames','/assets/images/projects/frames/portfolio-thumb.png')
+    .col-md-4.col-sm-6
+      = portfolio_img_link('/portfolio/personalized-box','/assets/images/projects/box/portfolio-thumb.png')
+  / /.row
+  / Features Section
+  .row
+    .col-lg-12
+      %h2.page-header The Men Behind the Business
+    .col-md-6
+      %p
+        We are a father son duo that co-founded Rugged Tree Woodworking in October of
+        2016. We've both been woodworking for years as a hobby and have been building
+        up the shop more agressively over the last 2 years.
+      %p= link_to 'Read more', '/about', class: 'btn btn-default'
+    .col-md-6
+      %img.img-responsive{:alt => "", :src => "/assets/images/about/small-retina.png"}
+      %p.caption Isaiah [left] and Thad [right]
+  / /.row
+  %hr/
 
-.delete-me
-  .container
-    %h1 thoughtbot Middleman Starter
-    %p
-      You're all set!
-      <a href="http://github.com/thoughtbot/proteus-middleman">Let's get started</a>
-      building your prototype.
+/ Script to Activate the Carousel
+:javascript
+  $('.carousel').carousel({
+      interval: 5000 //changes the speed
+  })
