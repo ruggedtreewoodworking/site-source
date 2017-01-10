@@ -6,6 +6,12 @@
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
     %title= current_page.data.title || "Rugged Tree Woodworking"
     = stylesheet_link_tag "application"
+    %link{:href => "/apple-touch-icon.png", :rel => "apple-touch-icon", :sizes => "180x180"}
+    %link{:href => "/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}
+    %link{:href => "/favicon-16x16.png", :rel => "icon", :sizes => "16x16", :type => "image/png"}
+    %link{:href => "/manifest.json", :rel => "manifest"}
+    %link{:color => "#14aa87", :href => "/safari-pinned-tab.svg", :rel => "mask-icon"}
+    %meta{:content => "#14aa87", :name => "theme-color"}
 
   %body{class: page_classes}
     / Navigation
@@ -18,7 +24,8 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand{:href => "/"} Rugged Tree Woodworking
+          %a.navbar-brand{:href => "/"}
+            %img{src: '/assets/images/logos/rtw-left-white.png'}
         / Collect the nav links, forms, and other content for toggling
         #navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav.navbar-right
