@@ -5,7 +5,16 @@
     %meta{content: "IE=edge,chrome=1", http: {equiv: "X-UA-Compatible"}}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
     %title= current_page.data.title || "Rugged Tree Woodworking"
+
+    %link{rel:"stylesheet", href:"/assets/vendor/stylesheets/jquery-ui.min.css", type:"text/css", media:"screen"}
     = stylesheet_link_tag "application"
+
+    %script{src:"/assets/vendor/javascripts/jquery-3.1.1.min.js"}
+    %script{src:"/assets/vendor/javascripts/jquery-ui.min.js"}
+    //%script{src:"/assets/vendor/javascripts/jquery-ui.structure.min.js"}
+    //%script{src:"/assets/vendor/javascripts/jquery-ui.theme.min.js"}
+    %script{src:"/assets/javascripts/application.js"}
+
     %link{:href => "/apple-touch-icon.png", :rel => "apple-touch-icon", :sizes => "180x180"}
     %link{:href => "/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}
     %link{:href => "/favicon-16x16.png", :rel => "icon", :sizes => "16x16", :type => "image/png"}
@@ -40,6 +49,3 @@
         .row
           .col-lg-12
             %p Copyright © Rugged Tree Woodworking
-
-    = javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js"
-    = javascript_include_tag "application"

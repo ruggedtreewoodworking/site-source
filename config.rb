@@ -38,7 +38,7 @@ helpers do
     ]
   end
 
-  def nav_link(link_text, url = "/#{link_text.downcase}", children = [])
+  def nav_link(link_text, url = "/#{link_text.downcase}", children = [], isChild = false)
     li_class = ''
     link_opts = {}
     link_suffix = ''
@@ -50,11 +50,11 @@ helpers do
       link_opts[:"data-toggle"] = "dropdown"
       link_suffix = content_tag(:b, class: 'caret') do ''; end
       post_link = content_tag :ul, class: 'dropdown-menu' do
-        children.map{|c| nav_link(*c) }.join('')
+        children.map{|c| nav_link(*(c+[[],true])) }.join('')
       end
     end
     # Make it active if it's in the same section
-    li_class << " active" if url.split('/')[1] == current_page.url.split('/')[1]
+    li_class << " active" if !isChild && url.split('/')[1] == current_page.url.split('/')[1]
     content_tag :li, class: li_class do
       link_to(link_text + link_suffix, children.empty? ? url : '#', link_opts) + post_link
     end
@@ -63,4 +63,56 @@ helpers do
   def portfolio_img_link(path, img_path)
     link_to tag(:img, src: img_path, class: 'img-responsive img-portfolio img-hover'), path
   end
+end
+
+[
+  {
+    name: 'ch-charcuterie-boards',
+    title: 'CH Charcuterie Boards',
+    images: [
+      'all.png',
+      'large-food-straight.png',
+      'large-straight.png',
+      'large.png',
+      'medium-food.png',
+      'portfolio-thumb.png',
+      'small-straight.png',
+      'small.png'
+      ],
+    description: 'Some description',
+    details: ['Detail one', 'detail two']
+  },
+  {
+    name: 'snowflake-ornament-set',
+    title: 'Snowflake Ornament Set',
+    images: [
+      'snowflakes-wide.png'
+      ],
+    description: 'Some description foo',
+    details: ['Detail', 'details']
+  },
+  {
+    name: 'customized-frames',
+    title: 'Customized Frames',
+    images: [
+      'leo-ellie.png',
+      'leo.png',
+      'ellie.png'
+      ],
+    description: 'Some description foo',
+    details: ['Detail', 'details']
+  },
+  {
+    name: 'personalized-box',
+    title: 'Personalized Box',
+    images: [
+      'shut-angled.png',
+      'lid-up-twisted.png',
+      'double-box-joint-interior.png'
+      ],
+    description: 'Some description foo',
+    details: ['Detail', 'details']
+  }
+].each do |project|
+  proxy "/portfolio/#{project[:name]}/index.html", "/portfolio/template.html", :locals => project, :ignore => true
 end
