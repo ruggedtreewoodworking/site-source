@@ -25,7 +25,6 @@ helpers do
   def link_structure
     [
       ['About'],
-      ['Services'],
       ['Contact'],
       ['Portfolio', '/portfolio', [
           ['View All', '/portfolio'],
