@@ -71,16 +71,21 @@ end
     title: 'CH Charcuterie Boards',
     images: [
       'all.png',
-      'large-food-straight.png',
       'large-straight.png',
       'large.png',
-      'medium-food.png',
-      'portfolio-thumb.png',
       'small-straight.png',
-      'small.png'
+      'small.png',
+      'large-food-straight.png',
+      'medium-food.png'
       ],
-    description: 'Some description',
-    details: ['Detail one', 'detail two']
+    description: 'Live edge hickory charcuterie boards, engraved with the logo of the
+      <a href="http://chdistillery.com/" target="_blank">CH Distillery</a>. They
+      requested these boards for use at their larger events. Both sides are engraved,
+      so the boards can be flipped to provide smaller or larger surface area depending
+      on the amount of food to be placed on them. They loved them so much that they had
+      us make eight smaller boards for use in their restaurant day to day. All boards
+      were taken from the same plank of hickory to create a beautiful set.',
+    details: ['Live Edge', 'Food Safe', 'Laser Engraved']
   },
   {
     name: 'snowflake-ornament-set',
