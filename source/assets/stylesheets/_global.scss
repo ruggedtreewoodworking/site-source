@@ -23,13 +23,6 @@ body {
   opacity: 0.8;
 }
 
-.navbar-brand img {
-  height: 35px;
-  position: relative;
-  top: -4px;
-  left: -50px;
-}
-
 /* Home Page Carousel */
 
 header.carousel {
@@ -86,10 +79,45 @@ footer {
 
 /* Responsive Styles */
 
+.navbar-brand img {
+  height: 35px;
+  position: relative;
+  top: -4px;
+  left: -50px;
+}
+
+@media(max-width:1264px) {
+  .navbar-brand img {
+    left: -10px;
+  }
+}
+
+@media(max-width:1199px) {
+  .navbar-brand img {
+    left: -50px;
+  }
+}
+
+@media(max-width:1106px) {
+  .navbar-brand img {
+    left: -10px;
+  }
+}
+
 @media(max-width:991px) {
   .customer-img,
   .img-related {
     margin-bottom: 30px;
+  }
+
+  .navbar-brand img {
+    left: -50px;
+  }
+}
+
+@media(max-width:854px) {
+  .navbar-brand img {
+    left: -10px;
   }
 }
 
