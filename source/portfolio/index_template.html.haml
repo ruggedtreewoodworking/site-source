@@ -1,0 +1,36 @@
+-# 6 per page, helper method for navigation?
+.container
+  .row
+    .col-lg-12
+      %h1.page-header
+        Project Portfolio
+      %ol.breadcrumb
+        %li
+          %a{:href => "/"} Home
+        %li.active Portfolio
+  - projects.each_slice(2) do |ps|
+    .row
+      - ps.each do |p|
+        .col-md-6.img-portfolio
+          = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.png")
+          %h3
+            %a{:href => "/portfolio/#{p[:name]}"}= p[:title]
+          %p= p[:teaser]
+  %hr/
+
+  - if (data.projects.count/6.0).ceil > 1
+    / Pagination
+    .row.text-center
+      .col-lg-12
+        %ul.pagination
+          - unless cur_page == 1
+            %li
+              %a{href: "/portfolio/#{cur_page-1}"} «
+          - (1..(data.projects.count/6.0).ceil).each do |p|
+            %li{ class: "#{p == cur_page ? 'active' : ''}" }
+              %a{:href => "/portfolio/#{p}"}=p
+          - unless cur_page == (data.projects.count/6.0).ceil
+            %li
+              %a{href: "/portfolio/#{cur_page+1}"} »
+    / /.row
+    %hr/

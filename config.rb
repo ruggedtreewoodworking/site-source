@@ -64,59 +64,16 @@ helpers do
   end
 end
 
-[
-  {
-    name: 'ch-charcuterie-boards',
-    title: 'CH Charcuterie Boards',
-    images: [
-      'all.png',
-      'large-straight.png',
-      'large.png',
-      'small-straight.png',
-      'small.png',
-      'large-food-straight.png',
-      'medium-food.png'
-      ],
-    description: 'Live edge hickory charcuterie boards, engraved with the logo of the
-      <a href="http://chdistillery.com/" target="_blank">CH Distillery</a>. They
-      requested these boards for use at their larger events. Both sides are engraved,
-      so the boards can be flipped to provide smaller or larger surface area depending
-      on the amount of food to be placed on them. They loved them so much that they had
-      us make eight smaller boards for use in their restaurant day to day. All boards
-      were taken from the same plank of hickory to create a beautiful set.',
-    details: ['Live Edge', 'Food Safe', 'Laser Engraved']
-  },
-  {
-    name: 'snowflake-ornament-set',
-    title: 'Snowflake Ornament Set',
-    images: [
-      'snowflakes-wide.png'
-      ],
-    description: 'Some description foo',
-    details: ['Detail', 'details']
-  },
-  {
-    name: 'customized-frames',
-    title: 'Customized Frames',
-    images: [
-      'leo-ellie.png',
-      'leo.png',
-      'ellie.png'
-      ],
-    description: 'Some description foo',
-    details: ['Detail', 'details']
-  },
-  {
-    name: 'personalized-box',
-    title: 'Personalized Box',
-    images: [
-      'shut-angled.png',
-      'lid-up-twisted.png',
-      'double-box-joint-interior.png'
-      ],
-    description: 'Some description foo',
-    details: ['Detail', 'details']
-  }
-].each do |project|
+data.projects.each do |project|
   proxy "/portfolio/#{project[:name]}/index.html", "/portfolio/template.html", :locals => project, :ignore => true
+end
+
+data.projects.each_slice(6).each_with_index do |ps, p|
+  l = { cur_page: p+1, projects: ps }
+  proxy "/portfolio/#{p+1}/index.html", "/portfolio/index_template.html", locals: l, ignore: true
+
+  # Make the bare index act like page 1
+  if p == 0
+    proxy "/portfolio/index.html", "/portfolio/index_template.html", locals: l, ignore: true
+  end
 end

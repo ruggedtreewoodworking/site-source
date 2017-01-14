@@ -1,26 +1,16 @@
 %header#myCarousel.carousel.slide
   / Indicators
   %ol.carousel-indicators
-    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
-    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
-    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+    - data.projects.select{|p| p.has_key?(:promote) }.each_with_index do |p,i|
+      %li{ 'class' => "#{i == 0 ? 'active' : ''}", "data-slide-to" => i, "data-target" => "#myCarousel"}
   / Wrapper for slides
   .carousel-inner
-    .item.active
-      %a{href: '/portfolio/ch-charcuterie-boards'}
-        .fill{:style => "background-image:url('/assets/images/projects/ch-charcuterie-boards/all.png');"}
-        .carousel-caption
-          %h2 Laser engraved charcuterie boards for CH Distillery
-    .item
-      %a{href: '/portfolio/snowflake-ornament-set'}
-        .fill.show-bottom{:style => "background-image:url('/assets/images/projects/snowflake-ornament-set/snowflakes-wide.png');"}
-        .carousel-caption
-          %h2 Aspen snowflake ornament set
-    .item
-      %a{href: '/portfolio/customized-frames'}
-        .fill.show-bottom{:style => "background-image:url('/assets/images/projects/customized-frames/leo-ellie.png');"}
-        .carousel-caption
-          %h2 Customized picture frames
+    - data.projects.select{|p| p.has_key?(:promote) }.each_with_index do |p,i|
+      .item{ class: "#{i == 0 ? 'active' : ''}" }
+        %a{href: "/portfolio/#{p[:name]}"}
+          %div{style: "background-image:url('/assets/images/projects/#{p[:name]}/#{p[:promote][:image]}');", class: "fill #{p[:promote].has_key?(:show) ? "show-#{p[:promote][:show]}" : ''}"}
+          .carousel-caption
+            %h2= p[:promote][:caption]
   / Controls
   %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
     %span.icon-prev
@@ -65,14 +55,9 @@
   .row
     .col-lg-12
       %h2.page-header Recent Projects
-    .col-md-4.col-sm-6
-      = portfolio_img_link('/portfolio/ch-charcuterie-boards','/assets/images/projects/ch-charcuterie-boards/portfolio-thumb.png')
-    .col-md-4.col-sm-6
-      = portfolio_img_link('/portfolio/snowflake-ornament-set','/assets/images/projects/snowflake-ornament-set/portfolio-thumb.png')
-    .col-md-4.col-sm-6
-      = portfolio_img_link('/portfolio/customized-frames','/assets/images/projects/customized-frames/portfolio-thumb.png')
-    .col-md-4.col-sm-6
-      = portfolio_img_link('/portfolio/personalized-box','/assets/images/projects/personalized-box/portfolio-thumb.png')
+    - data.projects.first(6).each do |p|
+      .col-md-4.col-sm-6
+        = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.png")
   / /.row
   / Features Section
   .row
