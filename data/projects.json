@@ -73,5 +73,18 @@
     "description": "A simple pine bench set at a low height for small toddlers. Shown at ten inches, when flipped the seat is at twelve inches. The shelf for toy storage was made to fit baskets the family had previously purchased.",
     "details": ["Reversible", "Elegant"],
     "teaser": "Simple, reversible bench for toddlers and toy storage"
+  },
+  {
+    "name": "eqk-cutting-board",
+    "title": "Live Edge Cutting Board",
+    "images": [
+      "top.png",
+      "top-angled.png",
+      "bottom.png",
+      "bottom-angled.png"
+      ],
+    "description": "A simple and elegant live edge cutting board with a personalized engraving.",
+    "details": ["Live Edge", "Elegant"],
+    "teaser": "Simple, elegant live edge cutting board"
   }
 ]

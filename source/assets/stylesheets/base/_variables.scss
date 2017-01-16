@@ -46,6 +46,8 @@ $rtw-vibrant: #15A986;
 $rtw-light: #FFF;
 $rtw-dark: #444440;
 
+$brand-primary: $rtw-vibrant;
+
 $navbar-inverse-bg: $rtw-vibrant;
 $navbar-inverse-color: $rtw-light;
 $navbar-inverse-brand-color: $rtw-light;
@@ -53,3 +55,6 @@ $navbar-inverse-link-color: $rtw-light;
 $navbar-inverse-border: $rtw-dark;
 $action-color: $rtw-vibrant;
 $base-font-color: $rtw-dark;
+
+$pagination-active-bg: $rtw-vibrant;
+$pagination-color: $rtw-vibrant;
