@@ -1,21 +1,10 @@
-%header#myCarousel.carousel.slide
-  / Indicators
-  %ol.carousel-indicators
-    - data.projects.select{|p| p.has_key?(:promote) }.each_with_index do |p,i|
-      %li{ 'class' => "#{i == 0 ? 'active' : ''}", "data-slide-to" => i, "data-target" => "#myCarousel"}
-  / Wrapper for slides
-  .carousel-inner
-    - data.projects.select{|p| p.has_key?(:promote) }.each_with_index do |p,i|
-      .item{ class: "#{i == 0 ? 'active' : ''}" }
-        %a{href: "/portfolio/#{p[:name]}"}
-          %div{style: "background-image:url('/assets/images/projects/#{p[:name]}/#{p[:promote][:image]}');", class: "fill #{p[:promote].has_key?(:show) ? "show-#{p[:promote][:show]}" : ''}"}
-          .carousel-caption
-            %h2= p[:promote][:caption]
-  / Controls
-  %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
-    %span.icon-prev
-  %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"}
-    %span.icon-next
+%header
+  .container
+    .row
+      .col-sm-6.img
+        %img{src: "/assets/images/together/ornament-on-tree.png"}
+      .col-sm-6
+        %h2 Bringing people closer through personal and unique creations
 / Page Content
 .container
   / Marketing Icons Section

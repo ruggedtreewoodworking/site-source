@@ -25,24 +25,62 @@ body {
 
 /* Home Page Carousel */
 
-header.carousel {
+header {
   height: 50%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-  height: 100%;
-}
-
-header.carousel .fill {
-  width: 100%;
-  height: 100%;
+  background-image: url('/assets/images/sapele.png');
   background-position: center;
   background-size: cover;
 
-  &.show-bottom {
-    background-position: bottom;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .img {
+        position: relative;
+        height: 100%;
+        img {
+          max-width: 80%;
+          max-height: 80%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border: 5px solid $rtw-vibrant;
+          border-radius: 5px;
+        }
+      }
+
+      h2 {
+        color: $rtw-light;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        font-size: 36px;
+        max-width: 400px;
+        text-align: center;
+        margin: 20% auto 0;
+      }
+    }
+  }
+}
+
+@media(max-width:991px) {
+  header .container .row h2 {
+    margin-top: 30%;
+  }
+}
+
+@media(max-width:767px) {
+  header .container {
+    height: 60%;
+
+    .row h2 {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media(max-width:419px) {
+  header .container {
+    height: 50%;
   }
 }
 
