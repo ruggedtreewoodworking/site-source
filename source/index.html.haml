@@ -2,7 +2,7 @@
   .container
     .row
       .col-sm-6.img
-        %img{src: "/assets/images/together/ornament-on-tree.png"}
+        %img{src: "/assets/images/together/ornament-on-tree.jpg"}
       .col-sm-6.mission
         %h2 Bringing people closer through personal and unique creations
 / Page Content
@@ -43,7 +43,7 @@
       %h2.page-header Recent Projects
     - data.projects.first(6).each do |p|
       .col-md-4.col-sm-6
-        = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.png")
+        = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.jpg")
   / /.row
   / Features Section
   .row
@@ -56,7 +56,7 @@
         up the shop more aggressively over the last 2 years.
       %p= link_to 'Read more', '/about', class: 'btn btn-default'
     .col-md-6
-      %img.img-responsive{:alt => "", :src => "/assets/images/about/small-retina.png"}
+      %img.img-responsive{:alt => "", :src => "/assets/images/about/small-retina.jpg"}
       %p.caption Isaiah [left] and Thad [right]
   / /.row
   %hr/

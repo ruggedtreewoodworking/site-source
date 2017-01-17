@@ -12,7 +12,7 @@
     .row
       - ps.each do |p|
         .col-md-6.img-portfolio
-          = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.png")
+          = portfolio_img_link("/portfolio/#{p[:name]}","/assets/images/projects/#{p[:name]}/portfolio-thumb.jpg")
           %h3
             %a{:href => "/portfolio/#{p[:name]}"}= p[:title]
           %p= p[:teaser]

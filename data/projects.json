@@ -3,17 +3,17 @@
     "name": "ch-charcuterie-boards",
     "title": "CH Charcuterie Boards",
     "promote": {
-      "image": "all.png",
+      "image": "all.jpg",
       "caption": "Laser engraved charcuterie boards for CH Distillery"
     },
     "images": [
-      "all.png",
-      "large-straight.png",
-      "large.png",
-      "small-straight.png",
-      "small.png",
-      "large-food-straight.png",
-      "medium-food.png"
+      "all.jpg",
+      "large-straight.jpg",
+      "large.jpg",
+      "small-straight.jpg",
+      "small.jpg",
+      "large-food-straight.jpg",
+      "medium-food.jpg"
       ],
     "description": "Live edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>. They requested these boards for use at their larger events. Both sides are engraved, so the boards can be flipped to provide smaller or larger surface area depending on the amount of food to be placed on them. They loved them so much that they had us make eight smaller boards for use in their restaurant day to day. All boards were taken from the same plank of hickory to create a beautiful set.",
     "details": ["Live Edge", "Food Safe", "Laser Engraved"],
@@ -23,12 +23,12 @@
     "name": "snowflake-ornament-set",
     "title": "Snowflake Ornament Set",
     "promote": {
-      "image": "snowflakes-wide.png",
+      "image": "snowflakes-wide.jpg",
       "caption": "Aspen snowflake ornament set",
       "show": "bottom"
     },
     "images": [
-      "snowflakes-wide.png"
+      "snowflakes-wide.jpg"
       ],
     "description": "A set of snowflake ornaments cut out of 1/8th inch aspen. This set used six of the available designs. Most of them were designed by Isaiah, with a couple designed by his siblings. Each is about three and a half inches in diameter and has a ribbon for hanging. You or your kids can cut out snowflakes and send them in to have them made into wooden snowflakes to get a personalized one of a kind set!",
     "details": ["Personalizable", "Unique Variety"],
@@ -38,14 +38,14 @@
     "name": "customized-frames",
     "title": "Customized Frames",
     "promote": {
-      "image": "leo-ellie.png",
+      "image": "leo-ellie.jpg",
       "caption": "Customized picture frames",
       "show": "bottom"
     },
     "images": [
-      "leo-ellie.png",
-      "leo.png",
-      "ellie.png"
+      "leo-ellie.jpg",
+      "leo.jpg",
+      "ellie.jpg"
       ],
     "description": "These frames were made as a pair, using maple and red oak in opposite positions. Engraved with the names of the people that would be displayed in them. The frames were also equipped with special hardware that allows the picture to be easily changed.",
     "details": ["Paired Woods", "Easy to Use", "Personalized"],
@@ -55,9 +55,9 @@
     "name": "personalized-box",
     "title": "Personalized Box",
     "images": [
-      "shut-angled.png",
-      "lid-up-twisted.png",
-      "double-box-joint-interior.png"
+      "shut-angled.jpg",
+      "lid-up-twisted.jpg",
+      "double-box-joint-interior.jpg"
       ],
     "description": "This beautiful box has amrbosia maple sides capped with walnut to form a double box joint. Accented with sapele for the base and lid. Engraved with an initial to personalize the box.",
     "details": ["Artistic Joints", "Exotic Woods", "Personalized"],
@@ -67,8 +67,8 @@
     "name": "simple-toddler-bench",
     "title": "Simple Toddler Bench",
     "images": [
-      "full.png",
-      "right.png"
+      "full.jpg",
+      "right.jpg"
       ],
     "description": "A simple pine bench set at a low height for small toddlers. Shown at ten inches, when flipped the seat is at twelve inches. The shelf for toy storage was made to fit baskets the family had previously purchased.",
     "details": ["Reversible", "Elegant"],
@@ -78,10 +78,10 @@
     "name": "eqk-cutting-board",
     "title": "Live Edge Cutting Board",
     "images": [
-      "top.png",
-      "top-angled.png",
-      "bottom.png",
-      "bottom-angled.png"
+      "top.jpg",
+      "top-angled.jpg",
+      "bottom.jpg",
+      "bottom-angled.jpg"
       ],
     "description": "A simple and elegant live edge cutting board with a personalized engraving.",
     "details": ["Live Edge", "Elegant"],
