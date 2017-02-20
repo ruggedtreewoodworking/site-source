@@ -12,6 +12,7 @@
       "large.jpg",
       "small-straight.jpg",
       "small.jpg",
+      "personal.jpg",
       "large-food-straight.jpg",
       "medium-food.jpg"
       ],
@@ -68,7 +69,9 @@
     "title": "Simple Toddler Bench",
     "images": [
       "full.jpg",
-      "right.jpg"
+      "right.jpg",
+      "front-with-cushions.jpg",
+      "angled-with-cushions.jpg"
       ],
     "description": "A simple pine bench set at a low height for small toddlers. Shown at ten inches, when flipped the seat is at twelve inches. The shelf for toy storage was made to fit baskets the family had previously purchased.",
     "details": ["Reversible", "Elegant"],
@@ -76,15 +79,78 @@
   },
   {
     "name": "eqk-cutting-board",
-    "title": "Live Edge Cutting Board",
+    "title": "Live Edge Walnut Cutting Board",
     "images": [
       "top.jpg",
       "top-angled.jpg",
       "bottom.jpg",
       "bottom-angled.jpg"
       ],
-    "description": "A simple and elegant live edge cutting board with a personalized engraving.",
+    "description": "A simple and elegant live edge walnut cutting board with a personalized engraving.",
     "details": ["Live Edge", "Elegant"],
-    "teaser": "Simple, elegant live edge cutting board"
+    "teaser": "Simple, elegant live edge walnut cutting board"
+  },
+  {
+    "name": "maybon-bench",
+    "title": "Outdoor Bench",
+    "images": [
+      "front.jpg",
+      "back.jpg"
+      ],
+    "description": "Durable and simple walnut bench, coated with marine varnish to survive any outdoor weather.",
+    "details": ["Live Edge", "Outdoor"],
+    "teaser": "Durable and simple walnut bench"
+  },
+  {
+    "name": "rjm-box",
+    "title": "Box with Monogram",
+    "images": [
+      "top-open.jpg",
+      "top-closed.jpg",
+      "inside-corner.jpg"
+      ],
+    "description": "Cedar and poplar box, engraved with a custom designed monogram.",
+    "details": ["Artistic Joints", "Personalized"],
+    "teaser": "Cedar and poplar box with monogram"
+  },
+  {
+    "name": "grey-bathroom-set",
+    "title": "Grey Bathroom Set",
+    "images": [
+      "vanity-drawer-closed.jpg",
+      "vanity-drawer-open.jpg",
+      "mirror.jpg",
+      "picture-frame.jpg"
+      ],
+    "description": "Grey-washed poplar, made to match the the accents already in the bathroom.",
+    "details": ["Matching Set", "Made-to-order"],
+    "teaser": "Grey-washed poplar bathroom set"
+  },
+  {
+    "name": "white-oak-bathroom-set",
+    "title": "Quartersawn White Oak Bathroom Set",
+    "images": [
+      "vanity-front.jpg",
+      "vanity-side.jpg",
+      "mirror.jpg"
+      ],
+    "description": "Quartersawn white oak bathroom set is Mission style inspired. It's open shelf design and slatted sides help keep the weight of the vanity down.",
+    "details": ["Matching Set", "Made-to-order"],
+    "teaser": "Quartersawn white oak bathroom set"
+  },
+  {
+    "name": "4-4-14-cutting-serving-board",
+    "title": "Live Edge Cherry Cutting/Serving Board",
+    "images": [
+      "top-straight.jpg",
+      "top-angled.jpg",
+      "top-alt-angled.jpg",
+      "bottom.jpg",
+      "bottom-live.jpg",
+      "bottom-cut.jpg"
+      ],
+    "description": "A simple and elegant live edge cherry cutting and serving board engraved with the anniversary of the recipients.",
+    "details": ["Live Edge", "Elegant"],
+    "teaser": "Simple, elegant live edge cherry cutting/serving board"
   }
 ]
