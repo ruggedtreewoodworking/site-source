@@ -30,7 +30,7 @@ helpers do
           ['View All', '/portfolio'],
           ['CH Charcuterie Boards', '/portfolio/ch-charcuterie-boards'],
           ['Snowflake Ornament Set', '/portfolio/snowflake-ornament-set'],
-          ['Customized Frames', '/portfolio/customized-frames'],
+          ['Oak Buffet', '/portfolio/oak-buffet'],
           ['Personalized Box', '/portfolio/personalized-box']
         ]
       ]

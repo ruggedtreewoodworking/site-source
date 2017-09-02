@@ -2,10 +2,6 @@
   {
     "name": "ch-charcuterie-boards",
     "title": "CH Charcuterie Boards",
-    "promote": {
-      "image": "all.jpg",
-      "caption": "Laser engraved charcuterie boards for CH Distillery"
-    },
     "images": [
       "all.jpg",
       "large-straight.jpg",
@@ -21,36 +17,26 @@
     "teaser": "Natural edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>"
   },
   {
+    "name": "oak-buffet",
+    "title": "Oak Buffet",
+    "images": [
+      "full.jpg",
+      "shelf.jpg",
+      "drawer.jpg"
+      ],
+    "description": "A beautiful buffet made primarily with quartersawn white oak. Both cabinets have an adjustable shelf, and all drawers have soft close glides.",
+    "details": ["Furniture"],
+    "teaser": "Beautiful quartersawn white oak buffet with plenty of storage"
+  },
+  {
     "name": "snowflake-ornament-set",
     "title": "Snowflake Ornament Set",
-    "promote": {
-      "image": "snowflakes-wide.jpg",
-      "caption": "Aspen snowflake ornament set",
-      "show": "bottom"
-    },
     "images": [
       "snowflakes-wide.jpg"
       ],
     "description": "A set of snowflake ornaments cut out of 1/8th inch aspen. This set used six of the available designs. Most of them were designed by Isaiah, with a couple designed by his siblings. Each is about three and a half inches in diameter and has a ribbon for hanging. You or your kids can cut out snowflakes and send them in to have them made into wooden snowflakes to get a personalized one of a kind set!",
     "details": ["Personalizable", "Unique Variety"],
     "teaser": "Unique snowflake ornaments cut out of aspen"
-  },
-  {
-    "name": "customized-frames",
-    "title": "Customized Frames",
-    "promote": {
-      "image": "leo-ellie.jpg",
-      "caption": "Customized picture frames",
-      "show": "bottom"
-    },
-    "images": [
-      "leo-ellie.jpg",
-      "leo.jpg",
-      "ellie.jpg"
-      ],
-    "description": "These frames were made as a pair, using maple and red oak in opposite positions. Engraved with the names of the people that would be displayed in them. The frames were also equipped with special hardware that allows the picture to be easily changed.",
-    "details": ["Paired Woods", "Easy to Use", "Laser Engraved"],
-    "teaser": "Two tone paired picture frames, personalized with the names of the people to be displayed in them"
   },
   {
     "name": "personalized-box",
@@ -76,6 +62,29 @@
     "description": "A simple pine bench set at a low height for small toddlers. Shown at ten inches, when flipped the seat is at twelve inches. The shelf for toy storage was made to fit baskets the family had previously purchased.",
     "details": ["Reversible", "Simple"],
     "teaser": "Simple, reversible bench for toddlers and toy storage"
+  },
+  {
+    "name": "award-goldies",
+    "title": "Goldies Award Cutouts",
+    "images": [
+      "single.jpg",
+      "stacks.jpg"
+      ],
+    "description": "A set of identical cutouts intended for use in a fun awards ceremony between coworkers. Made from 1/8th inch hardboard, they're ready to paint and be presented!",
+    "details": ["Cutout", "Idenitcal", "Paint-ready"],
+    "teaser": "Set of identical fish cutouts for the Goldies award ceremony"
+  },
+  {
+    "name": "customized-frames",
+    "title": "Customized Frames",
+    "images": [
+      "leo-ellie.jpg",
+      "leo.jpg",
+      "ellie.jpg"
+      ],
+    "description": "These frames were made as a pair, using maple and red oak in opposite positions. Engraved with the names of the people that would be displayed in them. The frames were also equipped with special hardware that allows the picture to be easily changed.",
+    "details": ["Paired Woods", "Easy to Use", "Laser Engraved"],
+    "teaser": "Two tone paired picture frames, personalized with the names of the people to be displayed in them"
   },
   {
     "name": "eqk-cutting-board",
@@ -152,5 +161,27 @@
     "description": "A simple and elegant natural edge cherry cutting and serving board engraved with the anniversary of the recipients.",
     "details": ["Natural Edge", "Elegant", "Laser Engraved"],
     "teaser": "Simple, elegant natural edge cherry cutting/serving board"
+  },
+  {
+    "name": "ash-cabinet",
+    "title": "Ash Cabinet",
+    "images": [
+      "finished.jpg",
+      "clamping.jpg"
+      ],
+    "description": "A simple ash cabinet for storage, set at window height for placing planters for herbs. Adjustable shelves in the cabinet make this a versatile and beautiful piece. The door hinges are soft close, so won't accidentally bang them shut.",
+    "details": ["Simple", "Versatile"],
+    "teaser": "Simple ash cabinet for storage and growing herbs"
+  },
+  {
+    "name": "doorhanger-name",
+    "title": "Personalized Name Door Hanger",
+    "images": [
+      "on-door.jpg",
+      "on-table.jpg"
+      ],
+    "description": "A door hanger of the name of the people's home. A fun way to let your guests know they're in the right place.",
+    "details": ["Personalized", "Door hanger"],
+    "teaser": "Door hanger bearing the name of the residents"
   }
 ]
