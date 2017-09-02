@@ -16,9 +16,9 @@
       "large-food-straight.jpg",
       "medium-food.jpg"
       ],
-    "description": "Live edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>. They requested these boards for use at their larger events. Both sides are engraved, so the boards can be flipped to provide smaller or larger surface area depending on the amount of food to be placed on them. They loved them so much that they had us make eight smaller boards for use in their restaurant day to day. All boards were taken from the same plank of hickory to create a beautiful set.",
-    "details": ["Live Edge", "Food Safe", "Laser Engraved"],
-    "teaser": "Live edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>"
+    "description": "Natural edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>. They requested these boards for use at their larger events. Both sides are engraved, so the boards can be flipped to provide smaller or larger surface area depending on the amount of food to be placed on them. They loved them so much that they had us make eight smaller boards for use in their restaurant day to day. All boards were taken from the same plank of hickory to create a beautiful set.",
+    "details": ["Natural Edge", "Food Safe", "Laser Engraved"],
+    "teaser": "Natural edge hickory charcuterie boards, engraved with the logo of the <a href=\"http://chdistillery.com/\" target=\"_blank\">CH Distillery</a>"
   },
   {
     "name": "snowflake-ornament-set",
@@ -79,16 +79,16 @@
   },
   {
     "name": "eqk-cutting-board",
-    "title": "Live Edge Walnut Cutting Board",
+    "title": "Natural Edge Walnut Cutting Board",
     "images": [
       "top.jpg",
       "top-angled.jpg",
       "bottom.jpg",
       "bottom-angled.jpg"
       ],
-    "description": "A simple and elegant live edge walnut cutting board with a personalized engraving.",
-    "details": ["Live Edge", "Elegant"],
-    "teaser": "Simple, elegant live edge walnut cutting board"
+    "description": "A simple and elegant natural edge walnut cutting board with a personalized engraving.",
+    "details": ["Natural Edge", "Elegant"],
+    "teaser": "Simple, elegant natural edge walnut cutting board"
   },
   {
     "name": "maybon-bench",
@@ -98,7 +98,7 @@
       "back.jpg"
       ],
     "description": "Durable and simple walnut bench, coated with marine varnish to survive any outdoor weather.",
-    "details": ["Live Edge", "Outdoor"],
+    "details": ["Natural Edge", "Outdoor"],
     "teaser": "Durable and simple walnut bench"
   },
   {
@@ -140,7 +140,7 @@
   },
   {
     "name": "4-4-14-cutting-serving-board",
-    "title": "Live Edge Cherry Cutting/Serving Board",
+    "title": "Natural Edge Cherry Cutting/Serving Board",
     "images": [
       "top-straight.jpg",
       "top-angled.jpg",
@@ -149,8 +149,8 @@
       "bottom-live.jpg",
       "bottom-cut.jpg"
       ],
-    "description": "A simple and elegant live edge cherry cutting and serving board engraved with the anniversary of the recipients.",
-    "details": ["Live Edge", "Elegant"],
-    "teaser": "Simple, elegant live edge cherry cutting/serving board"
+    "description": "A simple and elegant natural edge cherry cutting and serving board engraved with the anniversary of the recipients.",
+    "details": ["Natural Edge", "Elegant"],
+    "teaser": "Simple, elegant natural edge cherry cutting/serving board"
   }
 ]
