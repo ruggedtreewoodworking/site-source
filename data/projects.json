@@ -87,6 +87,18 @@
     "teaser": "Two tone paired picture frames, personalized with the names of the people to be displayed in them"
   },
   {
+    "name": "dominion-card-case",
+    "title": "Dominion Card Case",
+    "images": [
+      "collapsed.jpg",
+      "standing-closed.jpg",
+      "standing-open.jpg"
+      ],
+    "description": "This case is built to hold twice as many cards as are released for Dominion as of Empires. Allowing plenty of room for all the tokens and mats, as well as future expansions. The wheels and strap allow for easy mobility, while the folding legs keep this box off the table so you have room to play.",
+    "details": ["Made-to-order", "Laser Engraved"],
+    "teaser": "Mobile and roomy case to house all of Dominion and more"
+  },
+  {
     "name": "eqk-cutting-board",
     "title": "Natural Edge Walnut Cutting Board",
     "images": [
@@ -180,7 +192,7 @@
       "on-door.jpg",
       "on-table.jpg"
       ],
-    "description": "A door hanger of the name of the people's home. A fun way to let your guests know they're in the right place.",
+    "description": "A door hanger of the name of the people. A fun way to let your guests know they're in the right place.",
     "details": ["Personalized", "Door hanger"],
     "teaser": "Door hanger bearing the name of the residents"
   }
