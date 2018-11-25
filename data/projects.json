@@ -1,5 +1,60 @@
 [
   {
+    "name": "nebraska-table",
+    "title": "Maple Coffee Table with Nebraska River Epoxy Inlay",
+    "images": [
+      "top.jpg",
+      "angle-low.jpg",
+      "angle.jpg",
+      "step-1.jpg",
+      "step-2.jpg",
+      "step-3.jpg",
+      "step-4.jpg",
+      "step-5.jpg",
+      "step-6.jpg"
+    ],
+    "description": "A natural edge maple slab with Nebraska rivers carved out and filled with a colored epoxy. This vibrant piece is set on a steal base with a black matte powdercoat finish.",
+    "details": ["Natural Edge", "Furniture", "Epoxy Inlay"],
+    "teaser": "A beautiful natural edge maple slab with Nebraska rivers inlaid"
+  },
+  {
+    "name": "picnic-table",
+    "title": "Picnic Table and Benches",
+    "images": [
+      "10x3-end.jpg",
+      "10x3-side.jpg",
+      "10x4.jpg"
+    ],
+    "description": "Simple Parsons style picnic table and benches made with pine and finished with a deck stain for an easy outdoor place to gather with friends and family.",
+    "details": ["Outdoor", "Parsons style", "Pine Lumber"],
+    "teaser": "Simple Parsons style picnic table and benches in pine"
+  },
+  {
+    "name": "maple-clock",
+    "title": "Bigleaf Maple Natural Edge Clock with Epoxy Inlay",
+    "images": [
+      "full-finished.jpg",
+      "face-closeup.jpg",
+      "step-1.jpg",
+      "step-2.jpg",
+      "step-3.jpg"
+    ],
+    "description": "A natural edge bigleaf maple slab with amazing figure is embellished with a vibrant blue epoxy inlay for the face of the clock.",
+    "details": ["Natural Edge", "Epoxy Inlay"],
+    "teaser": "A beautiful natural edge bigleaf maple slab with blue epoxy roman numerals inlaid"
+  },
+  {
+    "name": "dressers",
+    "title": "Mission style Dresser in Honey Locust",
+    "images": [
+      "locust-front.jpg",
+      "locust-angle.jpg"
+    ],
+    "description": "A beautiful mission style dresser made primarily with honey locust, and cedar used for the sides and back of drawers. One drawer contains a personalized laser engraving for the recipient of the dresser (not pictured).",
+    "details": ["Furniture", "Laser Engraved"],
+    "teaser": "A simple mission style dresser"
+  },
+  {
     "name": "ch-charcuterie-boards",
     "title": "CH Charcuterie Boards",
     "images": [
@@ -32,7 +87,8 @@
     "name": "snowflake-ornament-set",
     "title": "Snowflake Ornament Set",
     "images": [
-      "snowflakes-wide.jpg"
+      "snowflakes-wide.jpg",
+      "christmas-variety.jpg"
       ],
     "description": "A set of snowflake ornaments cut out of 1/8th inch aspen. This set used six of the available designs. Most of them were designed by Isaiah, with a couple designed by his siblings. Each is about three and a half inches in diameter and has a ribbon for hanging. You or your kids can cut out snowflakes and send them in to have them made into wooden snowflakes to get a personalized one of a kind set!",
     "details": ["Personalizable", "Unique Variety"],
