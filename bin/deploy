@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 
 # Deploy using Middleman-deploy
-middleman deploy
+# middleman deploy
+
+# bundle exec middleman build
+# cd build
+# commit and push changes (to github pages)
