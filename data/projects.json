@@ -163,7 +163,7 @@
       "w-bottom-angled.jpg",
       "c-top-straight.jpg",
       "c-top-alt-angled.jpg",
-      "c-bottom-live.jpg",
+      "c-bottom-live.jpg"
       ],
     "description": "Simple and elegant natural edge cutting and serving board with a personalized engraving.",
     "details": ["Natural Edge", "Elegant", "Laser Engraved"],
@@ -238,5 +238,16 @@
     "description": "A door hanger of the name of the people. A fun way to let your guests know they're in the right place.",
     "details": ["Personalized", "Door hanger"],
     "teaser": "Door hanger bearing the name of the residents"
+  },
+  {
+    "name": "keychains",
+    "title": "Personalized Keychains",
+    "images": [
+      "family.jpg",
+      "event.jpg"
+      ],
+    "description": "Simple keychains, personalized for people in a family, a specific event, or any thing else you could want.",
+    "details": ["Personalized", "Keychain"],
+    "teaser": "Keychains with laser engravings"
   }
 ]
