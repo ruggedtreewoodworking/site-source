@@ -155,17 +155,19 @@
     "teaser": "Mobile and roomy case to house all of Dominion and more"
   },
   {
-    "name": "eqk-cutting-board",
-    "title": "Natural Edge Walnut Cutting Board",
+    "name": "natural-edge-cutting-serving-board",
+    "title": "Natural Edge Cutting/Serving Board",
     "images": [
-      "top.jpg",
-      "top-angled.jpg",
-      "bottom.jpg",
-      "bottom-angled.jpg"
+      "w-top.jpg",
+      "w-top-angled.jpg",
+      "w-bottom-angled.jpg",
+      "c-top-straight.jpg",
+      "c-top-alt-angled.jpg",
+      "c-bottom-live.jpg",
       ],
-    "description": "A simple and elegant natural edge walnut cutting board with a personalized engraving.",
+    "description": "Simple and elegant natural edge cutting and serving board with a personalized engraving.",
     "details": ["Natural Edge", "Elegant", "Laser Engraved"],
-    "teaser": "Simple, elegant natural edge walnut cutting board"
+    "teaser": "Simple, elegant natural edge cutting/serving board"
   },
   {
     "name": "maybon-bench",
@@ -214,21 +216,6 @@
     "description": "Quartersawn white oak bathroom set is Mission style inspired. It's open shelf design and slatted sides help keep the weight of the vanity down.",
     "details": ["Matching Set", "Made-to-order"],
     "teaser": "Quartersawn white oak bathroom set"
-  },
-  {
-    "name": "4-4-14-cutting-serving-board",
-    "title": "Natural Edge Cherry Cutting/Serving Board",
-    "images": [
-      "top-straight.jpg",
-      "top-angled.jpg",
-      "top-alt-angled.jpg",
-      "bottom.jpg",
-      "bottom-live.jpg",
-      "bottom-cut.jpg"
-      ],
-    "description": "A simple and elegant natural edge cherry cutting and serving board engraved with the anniversary of the recipients.",
-    "details": ["Natural Edge", "Elegant", "Laser Engraved"],
-    "teaser": "Simple, elegant natural edge cherry cutting/serving board"
   },
   {
     "name": "ash-cabinet",
