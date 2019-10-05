@@ -33,7 +33,8 @@ helpers do
           ['Oak Buffet', '/portfolio/oak-buffet'],
           ['Personalized Box', '/portfolio/personalized-box']
         ]
-      ]
+      ],
+      ['Store']
     ]
   end
 

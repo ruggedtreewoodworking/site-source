@@ -1,0 +1,54 @@
+{
+  "ship_ready": [
+    {
+      "project": "nebraska-table",
+      "cost": "$1,200",
+      "title": "Nebarska Rivers Coffee Table",
+      "description": "Natural edge maple slab with Nebraska rivers inlaid with a bluish green epoxy set on a powder coated steel base. This table is durable enough to be a bench as well, if desired. The rough dimensions of the table are 37 by 19 and 20 high."
+    },
+    {
+      "project": "maple-clock",
+      "cost": "$175",
+      "title": "Big Leaf Maple Clock",
+      "description": "Natural edge big leaf maple slab with epoxy inlaid clock. The maple has some really unique figure in it that catches the eye as you walk by. The clock measures roughly 37 by 14."
+    }
+  ],
+  "made_to_order": [
+    {
+      "project": "snowflake-ornament-set",
+      "cost": "$25+",
+      "title": "Set of 6 Ornaments",
+      "description": "Each ornament is about 3.75 inches tall, specialty and exotic woods increase cost. A variety of snowflakes and other holiday shapes have been designed, but if you want something we haven't done yet just let us know and we can design a new ornament for you. Or if you or your children want to create your own snowflake pattern with paper we can take your cutout and turn it into a wooden ornament for you!"
+    },
+    {
+      "project": "picnic-table",
+      "cost": "$350+",
+      "title": "Outdoor Parsons Picnic Table",
+      "description": "These pine lumber tables and benches are a cost effective way to get outdoor seating and eating areas. The size of table and inclusion of benches both can affect cost. The lower end of the cost range would be for a 6' table without benches."
+    },
+    {
+      "project": "dressers",
+      "cost": "$800+",
+      "title": "Hardwood Dresser",
+      "description": "Price can vary quite a bit for these, as the type of wood, size, number of drawers, and hardware all affect the cost in different ways. Let us know what you're after and we can get you a better idea for the price!"
+    },
+    {
+      "project": "customized-frames",
+      "cost": "$30+",
+      "title": "Customized Frames",
+      "description": "Frame cost varies some with wood selection. These are easily customized with a laser engraving; whether that would be a name, a date (e.g. wedding date, birthday, etc), location, or anything else you could want. Size of frame will also affect price; the above listed price is for a frame that holds an 8x10 photo."
+    },
+    {
+      "project": "natural-edge-cutting-serving-board",
+      "cost": "$25+",
+      "title": "Natural Edge Cutting/Serving Board",
+      "description": "Size of board and species of wood both affect price. These boards can be personalized with names, words, dates, or other designs as desired."
+    },
+    {
+      "project": "keychains",
+      "cost": "50¢-$2",
+      "title": "Personalized Keychains",
+      "description": "The main cost variance for these is the quantity you purchase. A single keychain would be $2, but buying multiple, even with different names/words on them, decreases cost per keychain. A fun and cheap way to commemorate a gathering or to provide individualized gifts for a large group or family."
+    }
+  ]
+}

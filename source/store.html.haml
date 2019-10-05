@@ -1,0 +1,50 @@
+.container
+  .row
+    .col-lg-12
+      %h1.page-header
+        Store
+      %ol.breadcrumb
+        %li
+          %a{:href => "/"} Home
+        %li.active Store
+  .row
+    .col-lg-12
+      %p
+        Shipping fees are not included in prices. Pick up or delivery can be scheduled in Lincoln, NE. Please
+        %a{href: "/contact"} contact us
+        if you are interested in any of the items below.
+  %hr/
+  .row
+    .col-lg-12
+      %h3 Ready to ship, deliver, or be picked up!
+      %p
+        These pieces have been hand crafted without a particular person in mind. They are fully complete and ready to be picked up, shipped, or delivered on short notice. If you see something that is similar to what you want, please contact us and we can discuss options for creating a piece specifically for you!
+
+  - data.items['ship_ready'].each_slice(2) do |itms|
+    .row
+      - itms.each do |p|
+        .col-md-6.img-portfolio
+          = portfolio_img_link("/portfolio/#{p[:project]}","/assets/images/projects/#{p[:project]}/portfolio-thumb.jpg")
+          %h3
+            %a{:href => "/portfolio/#{p[:project]}"}= p[:title]
+          %p.bold= p[:cost]
+          %p= p[:description]
+  %hr/
+  .row
+    .col-lg-12
+      %h3 Made to order!
+      %p
+        These items may take some time to create specially for you. Please contact us to discuss what you would like and we'll be able to give you a specific price and timeline. We can adjust sizes, wood species, styles, and finishes. And we love being able to personalize items with laser engravings! From keychains to jewelry boxes to dressers, we can integrate personalizations just about anywhere.
+      %p
+        If you see something similar to what you want below, or have an idea not listed, just send us some pictures of what you like and let us know the parts you like from each picture. We can use that as a starting point to give you a rough estimate. If the rough estimate is acceptable we'll flesh out and finalize a design with you and provide a final estimate before starting work on the project. We want to make sure that what we make for you meets the need you have.
+
+  - data.items['made_to_order'].each_slice(2) do |itms|
+    .row
+      - itms.each do |p|
+        .col-md-6.img-portfolio
+          = portfolio_img_link("/portfolio/#{p[:project]}","/assets/images/projects/#{p[:project]}/portfolio-thumb.jpg")
+          %h3
+            %a{:href => "/portfolio/#{p[:project]}"}= p[:title]
+          %p.bold= p[:cost]
+          %p= p[:description]
+  %hr/
