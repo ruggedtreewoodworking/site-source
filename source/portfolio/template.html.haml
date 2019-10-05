@@ -36,12 +36,20 @@
           %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-example-generic"}
             %span.glyphicon.glyphicon-chevron-right
     .col-md-4
+      - sr = data.items['ship_ready'].select{|i| i[:project] == name }
+      - if sr.size == 1
+        %h4= "#{sr.first[:cost]} Available now"
       %h3 Project Description
       %p= description
       %h3 Project Details
       %ul
         - details.each do |d|
           %li= d
+      - mto = data.items['made_to_order'].select{|i| i[:project] == name }
+      - if mto.size == 1
+        %h3 Made to order
+        %p.bold= mto.first[:cost]
+        %p= mto.first[:description]
 
   -#
     / Related Projects Row
