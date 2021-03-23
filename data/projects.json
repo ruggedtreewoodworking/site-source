@@ -1,5 +1,25 @@
 [
   {
+    "name": "walnut-epoxy-headboard",
+    "title": "Natural Edge Walnut Headboard with Black Epoxy River",
+    "images": [
+      "mounted-with-bed.jpg",
+      "mounted.jpg",
+      "angle.jpg",
+      "step-1.jpg",
+      "step-2.jpg",
+      "step-3.jpg",
+      "step-4.jpg",
+      "step-5.jpg",
+      "step-6.jpg",
+      "step-7.jpg",
+      "step-8.jpg"
+    ],
+    "description": "A book-matched pair of natural edge walnut slabs with a opaque black epoxy river between them. This headboard measures eight and a half feet long and just under four feet tall. Steel bars inset into the back to ensure the headboard remains flat and to help distriubte the weight of the headboard for hanging.",
+    "details": ["Natural Edge", "Headboard", "Epoxy Inlay"],
+    "teaser": "A gorgeous natural edge walnut slab headbaord with black epoxy river"
+  },
+  {
     "name": "nebraska-table",
     "title": "Maple Coffee Table with Nebraska River Epoxy Inlay",
     "images": [
@@ -204,18 +224,6 @@
     "description": "Grey-washed poplar, made to match the the accents already in the bathroom.",
     "details": ["Matching Set", "Made-to-order"],
     "teaser": "Grey-washed poplar bathroom set"
-  },
-  {
-    "name": "white-oak-bathroom-set",
-    "title": "Quartersawn White Oak Bathroom Set",
-    "images": [
-      "vanity-front.jpg",
-      "vanity-side.jpg",
-      "mirror.jpg"
-      ],
-    "description": "Quartersawn white oak bathroom set is Mission style inspired. It's open shelf design and slatted sides help keep the weight of the vanity down.",
-    "details": ["Matching Set", "Made-to-order"],
-    "teaser": "Quartersawn white oak bathroom set"
   },
   {
     "name": "ash-cabinet",
