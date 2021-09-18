@@ -1,0 +1,60 @@
+.container
+  / Page Heading/Breadcrumbs
+  .row
+    .col-lg-12
+      %h1.page-header
+        5 Year Celebration
+      %ol.breadcrumb
+        %li
+          %a{:href => "/"} Home
+        %li.active 5 Year Celebration
+  .row
+    .col-lg-12
+      %h2.page-header Celebrating 5 Years in Business
+      %p
+        It's been a wild 5 years, starting out in a garage to having a 2100 sqare foot building. We've slowly expanded our tools and learned new techniques to provide a wider selection of items. We're now regulars at the saw mill south east of town and last year we opened a shop on Etsy. We're hoping to continue our adventure by purchases a large laser cutter in the next year, which will allow us to create more fine detailed items at a much quicker rate.
+
+      %p
+        To celebrate, we've invited those who have supported us both as customers and as family and friends, to participate in a one day sale and celebration with us. Because of the discounted price we're providing, shipping is not included for those that are farther away. Some items are limited in quantity, without the option to customize or preorder another item of the same time. Most items though will have a limited number available to take home on the day of the event, but any order placed that day will be eligible for the discounted price, and some will be customizable as well! Each item will indicate if it is limited or orderable, and what, if any, customizations are available.
+
+      %p
+        To place an order (either to purchase a limited item or for a made-to-order item) text the number that was provided for RSVPs on the invitation. If a limited item has already been sold I'll be able to let you know via text as well.
+  %hr/
+
+
+  - cntr = 0
+  - data.items['5_years'].each_slice(2) do |itms|
+    .row
+      - itms.each do |p|
+        - cntr += 1
+        .col-md-6
+          .full-view-avail.carousel.slide{"data-ride" => "carousel", "id" => "carousel-#{cntr}"}
+            / Indicators
+            - if p.images.size > 1
+              %ol.carousel-indicators
+                %li.active{"data-slide-to" => "0", "data-target" => "#carousel-#{cntr}"}
+                - (p.images.size - 1).times do |i|
+                  %li{"data-slide-to" => (i+1).to_s, "data-target" => "#carousel-#{cntr}"}
+            / Wrapper for slides
+            .carousel-inner
+              .item.active
+                %img.img-responsive{alt: "", src: "/assets/images/5_years_sale/#{p.images[0]}"}
+              - p.images[1..-1].each do |i|
+                .item
+                  %img.img-responsive{alt: "", src: "/assets/images/5_years_sale/#{i}"}
+
+            / Controls
+            - if p.images.size > 1
+              %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-#{cntr}"}
+                %span.glyphicon.glyphicon-chevron-left
+              %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-#{cntr}"}
+                %span.glyphicon.glyphicon-chevron-right
+          %h3
+            = p[:title]
+          %p.bold= "Normal price: #{p[:cost]}"
+          %p.bold= "Anniversary Sale price: #{p[:sale]}"
+          %p= "On hand: #{p[:carry_qty]}"
+          %p= "Available to be Made To Order: #{p[:preorder] ? 'Yes' : 'No'}"
+          %p= p[:description]
+
+

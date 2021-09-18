@@ -60,8 +60,12 @@ helpers do
     end
   end
 
+  def portfolio_img(img_path)
+    tag(:img, src: img_path, class: 'img-responsive img-portfolio img-hover')
+  end
+
   def portfolio_img_link(path, img_path)
-    link_to tag(:img, src: img_path, class: 'img-responsive img-portfolio img-hover'), path
+    link_to portfolio_img(img_path), path
   end
 end
 

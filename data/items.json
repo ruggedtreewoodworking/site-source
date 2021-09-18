@@ -10,7 +10,7 @@
   "made_to_order": [
     {
       "project": "snowflake-ornament-set",
-      "cost": "$25+",
+      "cost": "$30+",
       "title": "Set of 6 Ornaments",
       "description": "Each ornament is about 3.75 inches tall, specialty and exotic woods increase cost. A variety of snowflakes and other holiday shapes have been designed, but if you want something we haven't done yet just let us know and we can design a new ornament for you. Or if you or your children want to create your own snowflake pattern with paper we can take your cutout and turn it into a wooden ornament for you!"
     },
@@ -28,7 +28,7 @@
     },
     {
       "project": "natural-edge-cutting-serving-board",
-      "cost": "$25+",
+      "cost": "$30+",
       "title": "Natural Edge Cutting/Serving Board",
       "description": "Size of board and species of wood both affect price. These boards can be personalized with names, words, dates, or other designs as desired."
     },
@@ -37,6 +37,300 @@
       "cost": "50¢-$2",
       "title": "Personalized Keychains",
       "description": "The main cost variance for these is the quantity you purchase. A single keychain would be $2, but buying multiple, even with different names/words on them, decreases cost per keychain. A fun and cheap way to commemorate a gathering or to provide individualized gifts for a large group or family."
+    }
+  ],
+  "5_years": [
+    {
+      "cost": "$30",
+      "sale": "$20",
+      "carry_qty": 1,
+      "preorder": true,
+      "title": "Set of 6 Ornaments",
+      "description": "Each ornament is about 3.75 inches tall. There are a variety of snowflakes and other holiday shapes available. See the images for details on various options. Pick any 6 shapes and pick a single wood species from the following: white oak, elm, or maple. Walnut, Cherry, and Paduk available for an additional $5 (regularly a $10 upcharge).",
+      "images": [
+        "ornaments/paduk-set.jpg",
+        "ornaments/shapes-guide.png",
+        "ornaments/advent-words-set.png",
+        "ornaments/example-snowflakes.jpg",
+        "ornaments/example-set.jpg"
+      ]
+    },
+    {
+      "cost": "$6",
+      "sale": "$4",
+      "carry_qty": 0,
+      "preorder": true,
+      "title": "Personalized Natural Edge Ornament",
+      "description": "Variety of wood species and fonts available. A single, large letter, or any name or word(s) can be engraved.",
+      "images": [
+        "ornaments/letters.jpg",
+        "ornaments/letters-size.jpg",
+        "font-guide-1.png",
+        "font-guide-2.png",
+        "font-guide-3.png",
+        "font-guide-4.png",
+        "font-guide-5.png",
+        "font-guide-6.png",
+        "font-guide-7.png"
+      ]
+    },
+    {
+      "cost": "$30",
+      "sale": "$20",
+      "carry_qty": 14,
+      "preorder": true,
+      "title": "Set of 4 Coasters",
+      "description": "Corked back, 4 inch square coasters with a chamfered edge; some with epoxy stripes, others with seasonal epoxy inlays. Personalization available in the form of choosing wood species, number of stripes, and color of each stripe. Monogram or other personalized inlays (in the style of the seasonal coasters) are also available upon request.",
+      "images": [
+        "coasters/1.jpg",
+        "coasters/2.jpg",
+        "coasters/3.jpg",
+        "coasters/4.jpg",
+        "coasters/5.jpg",
+        "coasters/6.jpg",
+        "coasters/7.jpg",
+        "coasters/8.jpg"
+      ]
+    },
+    {
+      "cost": "$150",
+      "sale": "$100",
+      "carry_qty": 3,
+      "preorder": false,
+      "title": "Splinter In Time Clock",
+      "description": "Natural edge walnut clocks about 4 inches wide and about 4 feet long. Contains a continuous sweep clock mechanism so that the clock can make a statement without making a noise :)",
+      "images": [
+        "splinter-in-time/clock-a.jpg",
+        "splinter-in-time/clock-b.jpg",
+        "splinter-in-time/clock-c.jpg"
+      ]
+    },
+    {
+      "cost": "$30/$40/$45",
+      "sale": "$20/$25/$30",
+      "carry_qty": 5,
+      "preorder": true,
+      "title": "State Shaped Cutting/Serving Board",
+      "description": "Most wood species are at the base price. Cherry and Walnut are tier two. Two-Tone Hackberry is tier three. We can cut just about any state shape out. Our target size is 16 x 9 for the rectangular states and 11 x 11 for square states, though each state varies some. The Nebraska and any made-to-order boards can be personalized with laser engraved words or a heart or star at the location of a specific city. For the precut boards: Nebraska and New Hamshire are Cherry, Iowa is Walnut, North Carolina is Ash, and Illinois is White Oak.",
+      "images": [
+        "state-full/nebraska-1.jpg",
+        "state-full/nebraska-2.jpg",
+        "state-full/iowa.jpg",
+        "state-full/northcarolina.jpg",
+        "state-full/newhampshire.jpg",
+        "state-full/illinois-1.jpg",
+        "state-full/illinois-2.jpg",
+        "state-full/texas-1.jpg",
+        "state-full/texas-2.jpg"
+      ]
+    },
+    {
+      "cost": "$2",
+      "sale": "$1",
+      "carry_qty": 0,
+      "preorder": true,
+      "title": "Personalized Keychains",
+      "description": "Variety of wood species and fonts available. Any name or word(s) can be engraved. A fun and cheap way to commemorate a gathering or to provide individualized gifts for a large group or family.",
+      "images": [
+        "keychains.jpg",
+        "font-guide-1.png",
+        "font-guide-2.png",
+        "font-guide-3.png",
+        "font-guide-4.png",
+        "font-guide-5.png",
+        "font-guide-6.png"
+      ]
+    },
+    {
+      "cost": "$30/$40/$45",
+      "sale": "$20/$25/$30",
+      "carry_qty": 0,
+      "preorder": true,
+      "title": "State Shaped Shadow Frames",
+      "description": "Most wood species are at the base price. Cherry and Walnut are tier two. Two-Tone Hackberry is tier three. We can cut just about any state shape out. Our target size is 18 x 11 for the rectangular states and 12 x 12 for square states, though each state varies some. Can be personalized with laser engraved words, a date, or a simple design. Precut and ready to personalize: Nebraska in Cherry, Iowa in Walnut, and New Hampshire in Cherry.",
+      "images": [
+        "state-frame/illinois-example-1.jpg",
+        "state-frame/illinois-example-2.jpg",
+        "state-frame/nebraska.jpg",
+        "state-frame/iowa.jpg",
+        "state-frame/newhampshire.jpg"
+      ]
+    },
+    {
+      "cost": "$1200",
+      "sale": "$900",
+      "carry_qty": 1,
+      "preorder": false,
+      "title": "Nebarska Rivers Coffee Table",
+      "description": "Natural edge maple slab with Nebraska rivers inlaid with a bluish green epoxy set on a powder coated steel base. This table is durable enough to be a bench as well, if desired. The rough dimensions of the table are 37 by 19 and 20 high.",
+      "images": [
+        "ne-river-table/top.jpg",
+        "ne-river-table/angle-low.jpg",
+        "ne-river-table/angle.jpg",
+        "ne-river-table/step-1.jpg",
+        "ne-river-table/step-2.jpg",
+        "ne-river-table/step-3.jpg",
+        "ne-river-table/step-4.jpg",
+        "ne-river-table/step-5.jpg",
+        "ne-river-table/step-6.jpg"
+      ]
+    },
+    {
+      "cost": "$500",
+      "sale": "$350",
+      "carry_qty": 0,
+      "preorder": true,
+      "title": "Ash Sofa Table/Queen Headboard with shelf",
+      "description": "Built primarily from ash that was killed by the emerald ash borer, this piece can work either as a sofa table or as a headboard for a queen bed. In either place it provides a shelf with a pair of wide cubbies underneath. Perfect for phones, cups, or anything else you want to keep at hand.",
+      "images": [
+        "sofa-table/1.jpg",
+        "sofa-table/2.jpg",
+        "sofa-table/3.jpg"
+      ]
+    },
+    {
+      "cost": "$20",
+      "sale": "$10",
+      "carry_qty": 1,
+      "preorder": false,
+      "title": "Natural Edge White Oak Bar Cutting Board with Margarita engraving",
+      "description": "Perfect for cutting limes, or any other small things. Approx 10.25 x 4.5 inches",
+      "images": [
+        "marg-board/1.jpg",
+        "marg-board/2.jpg"
+      ]
+    },
+    {
+      "cost": "$40/$50/$75",
+      "sale": "$25/$35/$50",
+      "carry_qty": 2,
+      "preorder": true,
+      "title": "Dovetail trays",
+      "description": "A variety of trays. Can be used as dice trays, valet trays, a catchall near your front door, or anything your can imagine :) Various options for corners include half blind dove tails, dovetail corner posts, dovetail cornerpost with inlays, and much more! The large tray is ready to personalize with an engraving if desired, apprx 12.5 x 10.5. Two of the medium trays are ready to personalize with an engraving, when finished the blue will shine, approx 8.25 x 6.25 and 8.25 x 7.25. The other medium tray is engraved with the Rugged Tree Woodworking logo and has two natural edge sides, approx 10.5 x 7.5. The small tray is finished, white oak sides with walnut ends and a cherry bottom, approx 8 x 5.25. All trays are about 2.25 inches tall.",
+      "images": [
+        "large-tray/1.jpg",
+        "large-tray/2.jpg",
+        "med-trays/tray-1-1.jpg",
+        "med-trays/tray-1-2.jpg",
+        "med-trays/tray-1-3.jpg",
+        "med-trays/tray-2-1.jpg",
+        "med-trays/tray-2-2.jpg",
+        "med-trays/3-1.jpg",
+        "med-trays/3-2.jpg",
+        "small-tray/1.jpg",
+        "small-tray/2.jpg"
+      ]
+    },
+    {
+      "cost": "$40",
+      "sale": "$25",
+      "carry_qty": 1,
+      "preorder": false,
+      "title": "Walnut and blue epoxy serving board",
+      "description": "Natural edge walnut board with crack that was filled with blue epoxy. Food safe for serving. Approx 17 x 6.5",
+      "images": [
+        "walnut-epoxy-board/1.jpg",
+        "walnut-epoxy-board/2.jpg"
+      ]
+    },
+    {
+      "cost": "$45",
+      "sale": "$30",
+      "carry_qty": 1,
+      "preorder": true,
+      "title": "State Shaped Beer Flight Board with glasses",
+      "description": "A Nebraska board is ready for personalization, and any state can be made.",
+      "images": [
+        "state-beer-flight/1.jpg",
+        "state-beer-flight/2.jpg",
+        "state-beer-flight/3.jpg"
+      ]
+    },
+    {
+      "cost": "$10",
+      "sale": "$5",
+      "carry_qty": 4,
+      "preorder": true,
+      "title": "Take and Paint Door Hangers",
+      "description": "A variety of shapes are already availble and almost any shape can be made available upon request. Cut out of 1/8 inch hardboard. With or without holes drilled for hanging. Roughly 24x18 ish, size varies by shape, details available upon request for specific shapes.",
+      "images": [
+        "doorhanger/1.jpg",
+        "doorhanger/2.jpg",
+        "doorhanger/3.jpg",
+        "cutout-shape-guide.png"
+      ]
+    },
+    {
+      "cost": "$2",
+      "sale": "$1",
+      "carry_qty": 12,
+      "preorder": true,
+      "title": "Take and Paint Minis (crafting)",
+      "description": "A variety of shapes are already availble and almost any shape can be made available upon request. Cut out of 1/8 inch hardboard. Roughly 5x4 ish, sizes vary by shape. Great as an activity with kids. Half price if you are willing to clean up the edges (we provide a piece of sandpaper), it's pretty simple, but takes a little time.",
+      "images": [
+        "tpmini/1.jpg",
+        "tpmini/2.jpg",
+        "tpmini/3.jpg",
+        "cutout-shape-guide.png"
+      ]
+    },
+    {
+      "cost": "$35",
+      "sale": "$20",
+      "carry_qty": 3,
+      "preorder": true,
+      "title": "Shot Flight Boards",
+      "description": "Some naturale edge boards or any state shape. Made to order boards can be personalized. Comes with shot glasses.",
+      "images": [
+        "shot-flights/1.jpg",
+        "shot-flights/2.jpg",
+        "shot-flights/3.jpg",
+        "shot-flights/4.jpg",
+        "shot-flights/5.jpg",
+        "shot-flights/6.jpg"
+      ]
+    },
+    {
+      "cost": "$20/$25/$30",
+      "sale": "$15/$20/$25",
+      "carry_qty": 2,
+      "preorder": true,
+      "title": "State Shaped Cutting/Serving Board",
+      "description": "Most wood species are at the base price. Cherry and Walnut are tier two. Two-Tone Hackberry is tier three. We can cut just about any state shape out. Our target size is 8 x 5 for the rectangular states and 6 x 6 for square states, though each state varies some. Any made-to-order boards can be personalized with laser engraved words or a heart or star at the location of a specific city. The two pre-made boards are white oak.",
+      "images": [
+        "state-bar-board/1.jpg",
+        "state-bar-board/2.jpg",
+        "state-bar-board/3.jpg",
+        "state-bar-board/4.jpg"
+      ]
+    },
+    {
+      "cost": "$15",
+      "sale": "$7",
+      "carry_qty": 2,
+      "preorder": false,
+      "title": "Thin Nebarska bar boards in Sycamore",
+      "description": "About 3/8 inches thick, cut in the shape of Nebraska, oiled and ready to go.",
+      "images": [
+        "thin-bar-board/1.jpg",
+        "thin-bar-board/2.jpg",
+        "thin-bar-board/3.jpg",
+        "thin-bar-board/4.jpg"
+      ]
+    },
+    {
+      "cost": "$45/$30",
+      "sale": "$30/$20",
+      "carry_qty": 3,
+      "preorder": true,
+      "title": "Beer flight/Shot flight boards (includes glasses, $30) or Candle Tray ($20)",
+      "description": "Three boards are prepped and ready to have circles cut to fit beer glasses, shot glasses, or candles. Can also be personalized with a laser engraving. Approx size 16 x 3.5",
+      "images": [
+        "flight-blanks/1.jpg",
+        "flight-blanks/2.jpg",
+        "flight-blanks/3.jpg",
+        "flight-blanks/4.jpg"
+      ]
     }
   ]
 }
