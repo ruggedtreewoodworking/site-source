@@ -34,7 +34,7 @@ helpers do
           ['Personalized Box', '/portfolio/personalized-box']
         ]
       ],
-      ['Store']
+      ['Store', 'https://rugged-tree.square.site']
     ]
   end
 
@@ -52,6 +52,10 @@ helpers do
       post_link = content_tag :ul, class: 'dropdown-menu' do
         children.map{|c| nav_link(*(c+[[],true])) }.join('')
       end
+    end
+
+    if /^http/ =~ url
+      link_opts[:target] = '_blank'
     end
     # Make it active if it's in the same section
     li_class << " active" if !isChild && url.split('/')[1] == current_page.url.split('/')[1]
